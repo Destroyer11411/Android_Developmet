@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="heading">Welcome to TIC-TAC-TOE</string>
+    <string name="string_heading">Welcome to TIC-TAC-TOE</string>
+    <string name="grid">ourmaingrid</string>
+    <string name="grid_image1">grid image</string>
+    <string name="grid_image2">grid image</string>
+    <string name="grid_image3">grid image</string>
+    <string name="grid_image4">grid image</string>
+    <string name="grid_image5">grid image</string>
+    <string name="grid_image6">grid image</string>
+    <string name="grid_image7">grid image</string>
+    <string name="grid_image8">grid image</string>
+    <string name="grid_image9">grid image</string>
+
+</resources>

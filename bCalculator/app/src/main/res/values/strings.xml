@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">bCalculator</string>
+    <string name="calc_image">Calc_image</string>
+    <string name="add_btn">+</string>
+    <string name="sub_btn">-</string>
+    <string name="mul_btn">*</string>
+    <string name="div_btn">/</string>
+    <string name="ans">answer</string>
+    <string name="edFirstvalue">Enter the first value</string>
+    <string name="edSecondvalue">Enter the second value</string>
+    <string name="splash_logo">Splash Logo</string>
+    <string name="splash_screen_text">By Destroyer</string>
+</resources>
