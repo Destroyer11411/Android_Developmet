@@ -1,0 +1,18 @@
+1) to make an normal toast the process is simple
+just inside an onClick function 
+--> Toast.makeText( MainActivity.this, "This is an default toast" ,Toast.LENGTH_LONG).show()
+
+
+2) to make an simple toast with gravity
+you need to create an object of the toast and then add the parameteres to the toast
+
+--> Toast toast = Toast.makeText(MainActivity.this,"Simple Toast",Toast.LENGTH_LONG);
+    toast.setGravity(Gravity.CENTER, 0, 0);
+    toast.show();
+
+
+3)the next toast is also similar to the previous one 
+
+--> Toast toast  = Toast.makeText(MainActivity.this,"Simple Toast",Toast.LENGTH_LONG);
+    toast.setGravity(Gravity.BOTTOM | Gravity.RIGHT, 0, 0);
+    toast.show();

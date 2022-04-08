@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         tvThird = findViewById(R.id.three);
         tvFourth = findViewById(R.id.four);
         tvFifth = findViewById(R.id.five);
-        tvSixth = findViewById(R.id.six);
+        //tvSixth = findViewById(R.id.six);
 
         tvFirst.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,12 +59,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tvSixth.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Sixth Toast", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        tvSixth.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(MainActivity.this, "Sixth Toast", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
 
 
@@ -73,5 +73,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+    }
+
+    public void sixthOne(View view) {
+        Toast.makeText(MainActivity.this, "This is invoked from second method", Toast.LENGTH_SHORT).show();
     }
 }
