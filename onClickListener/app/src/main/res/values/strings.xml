@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">onClickListener</string>
+    <string name="block_one">First</string>
+    <string name="block_two">Second</string>
+    <string name="block_three">Third</string>
+    <string name="block_four">Fourth</string>
+    <string name="block_five">Fifth</string>
+    <string name="block_six">Sixth</string>
+
+
+</resources>
